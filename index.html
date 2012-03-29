@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+   - SafeWith.me - store and share your files with OpenPGP encryption on any device via HTML5
+   -
+   - Copyright (c) 2012 Tankred Hase
+   - 
+   - This program is free software; you can redistribute it and/or
+   - modify it under the terms of the GNU General Public License
+   - as published by the Free Software Foundation; version 2
+   - of the License.
+   - 
+   - This program is distributed in the hope that it will be useful,
+   - but WITHOUT ANY WARRANTY; without even the implied warranty of
+   - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+   - GNU General Public License for more details.
+   - 
+   - You should have received a copy of the GNU General Public License
+   - along with this program; if not, write to the Free Software
+   - Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+   -->
+  <head>
+    <meta charset="utf-8">
+    <title>SafeWith.me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Store and share your files with OpenPGP encryption on any device via HTML5">
+    <meta name="author" content="Tankred Hase">
+    <meta name="keywords" content="safe with me, secure online storage, secure cloud storage, secure file sharing, securely share files, open source, privacy, security, client side encryption, pgp, openpgp, html5" />
+
+    <!-- Le styles -->
+    <link href="css/bootstrap-2.0.1.min.css" rel="stylesheet">
+    <link href="css/safewithme.css" rel="stylesheet">
+    <style type="text/css">
+      #logo {
+        background-image:url('img/safe-icon.png');
+        width: 256px;
+        height: 265px;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        padding-top: 10px;
+      }
+      
+      header h1 {
+        font-size: 1.75em;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        line-height: 1.2em;
+        text-align: center;
+        text-shadow: 1px 2px 5px rgba(64, 64, 64, 0.5);
+      }
+
+      article p {
+        font: italic 14px/19px Georgia,Times New Roman,serif;
+        font-family: Georgia, 'Times New Roman', serif;
+        color: #777;
+        text-align: center;
+        padding-bottom: 30px;
+      }
+
+      #html5badge {
+        padding-left: 15px;
+      }
+      
+      .openpgpjs {
+        font-size: 19px;
+        font-family: Georgia, serif;
+        font-weight: bold;
+        font-style: italic;
+        color:#F8F8F8;
+        text-shadow: 1px 1px 1px #808080, -1px -1px 0px #fff;
+        float: right;
+        padding-top: 25px;
+        padding-right: 15px;
+      }
+
+      a.openpgpjs:hover {
+      	text-decoration: none;
+        color:#F8F8F8;
+      }
+    </style>
+    <link href="css/bootstrap-responsive-2.0.1.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="safewithmebrand" href="index.html">SafeWith.me</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="about.html">About</a></li>
+              <li><a href="https://github.com/tanx/SafeWith.me/wiki/FAQ">FAQ</a></li>
+              <li><a href="https://github.com/tanx/SafeWith.me">Code</a></li>
+            </ul>
+            <p id="login" class="navbar-text pull-right">Login and <a href="https://safewith-me.appspot.com/app/">try the alpha</a></p>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="well">
+
+          <section id="wrapper">
+            <header>
+              <h1>Would you post a scan of<br/>your credit card on the internet?<br/><br/>You could be doing that right now,<br/>without even knowing it.</h1>
+            </header>
+            <div id="logo"></div>
+            <article>
+              <p><b>Our mission:</b> provide you secure access to all of your private documents<br/> anywhere, anytime and on all of your devices. <a href="about.html">How?</a></p>
+            </article>
+            <div class="row-fluid">
+              <div class="span6">
+                <a href="http://www.w3.org/html/logo/">
+                  <img id="html5badge" src="img/html5-badge-h-css3-performance-storage.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Performance &amp; Integration, and Offline &amp; Storage" title="HTML5 Powered with CSS3 / Styling, Performance &amp; Integration, and Offline &amp; Storage">
+                </a>
+              </div>
+              <div class="span6">
+                <a class="openpgpjs" href="http://openpgpjs.org">powered by OpenPGP.js</a>     
+              </div>
+            </div>       
+          </section><!--/wrapper-->
+          
+        </div><!--/well-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2012 Tankred Hase | Icons by iconleak.com</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/bootstrap-2.0.1.min.js"></script>
+
+  </body>
+</html>
