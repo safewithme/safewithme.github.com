@@ -29,37 +29,10 @@
     <link href="css/bootstrap-2.0.1.min.css" rel="stylesheet">
     <link href="css/safewithme.css" rel="stylesheet">
     <style type="text/css">
-      #logo {
-        background-image:url('img/safe-icon-small.png');
-        width: 128px;
-        height: 128px;
-        margin-left: auto;
-        margin-right: auto;
-        background-repeat: no-repeat;
-        padding-top: 10px;
-      }
-      
       article {
         font: italic 14px/19px Georgia,Times New Roman,serif;
         font-family: Georgia, 'Times New Roman', serif;
         color: #777;
-      }
-      
-      h1 {
-        font-size: 1.75em;
-        padding-top: 10px;
-        padding-bottom: 20px;
-      }
-      
-      h1, h3 {
-        line-height: 1.2em;
-        text-align: center;
-        text-shadow: 1px 2px 5px rgba(64, 64, 64, 0.5);
-      }
-
-      #control {
-        font-style: italic;
-        padding-bottom: 20px;
       }
     </style>
     <link href="css/bootstrap-responsive-2.0.1.min.css" rel="stylesheet">
@@ -71,9 +44,6 @@
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="favicon.ico">
-    <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
   </head>
 
   <body>
@@ -91,7 +61,7 @@
             <ul class="nav">
               <li class="active"><a href="about.html">About</a></li>
               <li><a href="https://github.com/tanx/SafeWith.me/wiki/FAQ">FAQ</a></li>
-              <li><a href="https://github.com/tanx/SafeWith.me/issues/milestones?direction=asc&sort=due_date">Roadmap</a></li>
+              <li><a href="https://github.com/tanx/SafeWith.me/issues/milestones?direction=asc&amp;sort=due_date">Roadmap</a></li>
               <li><a href="https://github.com/tanx/SafeWith.me">Code</a></li>
             </ul>
             <p id="login" class="navbar-text pull-right">Login and <a href="https://safewith-me.appspot.com/app/">try the alpha</a></p>
@@ -106,18 +76,16 @@
 
           <section id="wrapper"> 
             <header>
-              <h1>"So every online storage provider tells me they're<br/>secure... what makes you any better?"</h1>
+              <h1>Why is it more secure?</h1>
               <div id="logo"></div>
-              <h3 id="control">Because <b>SafeWith.me</b> gives you total control of your privacy.</h3>
             </header>
             <article>
               <ul>
-                <li>Documents are encrypted in your web browser with <b>your personal key before uploading</b>, using the trusted and well-known OpenPGP standard.</li>
-                <li>Other storage services on the web may encrypt your data with their key after upload. But this means that they will still always have access. This presents a very <b>real privacy threat for you</b>, if their service is compromised.</li>
-                <li>With SafeWith.me, no one (not even we) can read your documents without your private key, since <b>only the encrypted versions of your files and file-metadata are sent to our servers</b>. You are the only one who is able to access your data.</li>
-                <li>Login using your existing Google Account means you don't have to register to yet another service or <b>provide any personal information.</b></li>
-                <li><b>Secure sharing</b> of documents with others using their personal key enables only the recipients to have access.</li>
+                <li>Documents are encrypted with <b>your personal key before uploading</b>, using the trusted and well-known OpenPGP standard.</li>
+                <li><b>No one (not even we) can read your documents</b> without your private key.</li>
                 <li>Your documents are available on your device <b>even when you're offline</b>, using the newest HTML5 technologies.</li>
+                <li><b>Secure sharing</b> of documents with others using their personal key enables only the recipients to have access.</li>
+                <li>Login using your existing Google Account means you don't have to register to yet another service or <b>provide any personal information.</b></li>
                 <li><b>It's Open Source</b>. Providing transparency of the software and enabling collaboration with a community of security experts.</li>
               </ul>
             </article>

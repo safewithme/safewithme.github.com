@@ -9,7 +9,7 @@
 	font-family: Georgia, serif;
 	font-weight: bold;
 	font-style: italic;
-	color:#505050;
+	color: #505050;
 	text-shadow: 1px 1px 0px #101010, -1px -1px 0px #808080;
 }
 
@@ -21,4 +21,44 @@ a.safewithmebrand:hover {
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
+}
+
+#logo {
+	background-image:url('../img/safe-icon-small.png');
+	width: 128px;
+	height: 128px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+}
+
+header h1 {
+	font-size: 1.75em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	line-height: 1.2em;
+	text-align: center;
+	text-shadow: 1px 2px 5px rgba(64, 64, 64, 0.5);
+}
+
+#html5badge {
+	padding-left: 15px;
+}
+
+.openpgpjs {
+	font-size: 19px;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	font-style: italic;
+	color:#F8F8F8;
+	text-shadow: 1px 1px 1px #808080, -1px -1px 0px #fff;
+	float: right;
+	padding-top: 25px;
+	padding-right: 15px;
+}
+
+a.openpgpjs:hover {
+	text-decoration: none;
+	color:#F8F8F8;
 }
