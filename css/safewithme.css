@@ -62,3 +62,31 @@ a.openpgpjs:hover {
 	text-decoration: none;
 	color:#F8F8F8;
 }
+
+#linksToMore article p {
+	font: italic 20px/25px Georgia,Times New Roman,serif;
+	font-family: Georgia, 'Times New Roman', serif;
+	color: #777;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#social {
+	margin: 0px auto;
+	padding-bottom: 20px;
+}
+
+#social ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#social ul li {
+	display: inline;
+}
+
+.facebook {
+	float: left;
+}
