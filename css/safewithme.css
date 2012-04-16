@@ -31,6 +31,7 @@ body {
 	margin-right: auto;
 	background-repeat: no-repeat;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 header h1 {
@@ -63,6 +64,8 @@ a.openpgpjs:hover {
 	color:#F8F8F8;
 }
 
+/* homepage specific */
+
 #linksToMore article p {
 	font: italic 20px/25px Georgia,Times New Roman,serif;
 	font-family: Georgia, 'Times New Roman', serif;
@@ -89,4 +92,12 @@ a.openpgpjs:hover {
 
 .facebook {
 	float: left;
+}
+
+/* about page specific */
+
+#aboutInfo article {
+	font: italic 14px/19px Georgia,Times New Roman,serif;
+	font-family: Georgia, 'Times New Roman', serif;
+	color: #777;
 }
