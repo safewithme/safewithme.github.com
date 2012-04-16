@@ -44,6 +44,7 @@ header h1 {
 }
 
 #html5badge {
+	padding-top: 15px;
 	padding-left: 15px;
 }
 
@@ -71,12 +72,12 @@ a.openpgpjs:hover {
 	font-family: Georgia, 'Times New Roman', serif;
 	color: #777;
 	text-align: center;
-	padding-bottom: 25px;
+	padding-bottom: 30px;
 }
 
 #social {
 	margin: 0px auto;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 
 #social ul {
