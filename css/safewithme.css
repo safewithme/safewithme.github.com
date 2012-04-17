@@ -98,7 +98,63 @@ a.openpgpjs:hover {
 /* about page specific */
 
 #aboutInfo article {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#aboutInfo ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#aboutInfo li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#aboutInfo p {
+	margin-left: 68px;
 	font: italic 14px/19px Georgia,Times New Roman,serif;
 	font-family: Georgia, 'Times New Roman', serif;
 	color: #777;
+}
+
+.listIcon {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#keyIcon {
+	background-image:url('../img/key-icon.png');
+}
+
+#bulbIcon {
+	background-image:url('../img/bulb-icon.png');
+}
+
+#mailIcon {
+	background-image:url('../img/mail-icon.png');
+}
+
+#scriptIcon {
+	background-image:url('../img/script-icon.png');
+}
+
+#copyIcon {
+	background-image:url('../img/copy-icon.png');
+}
+
+#prefIcon {
+	background-image:url('../img/preferences-icon.png');
+}
+
+#toolIcon {
+	background-image:url('../img/tool-icon.png');
 }
