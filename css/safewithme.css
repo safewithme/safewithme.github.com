@@ -162,3 +162,7 @@ a.openpgpjs:hover {
 #toolIcon {
 	background-image:url('../img/tool-icon.png');
 }
+
+#editIcon {
+	background-image:url('../img/edit-icon.png');
+}
