@@ -131,6 +131,10 @@ a.openpgpjs:hover {
 	padding-bottom: 10px;
 }
 
+#safeIcon {
+	background-image:url('../img/safe-icon.png');
+}
+
 #keyIcon {
 	background-image:url('../img/key-icon.png');
 }
