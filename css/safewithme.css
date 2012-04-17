@@ -100,8 +100,8 @@ a.openpgpjs:hover {
 #aboutInfo article {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #aboutInfo ul {
@@ -116,7 +116,7 @@ a.openpgpjs:hover {
 }
 
 #aboutInfo p {
-	margin-left: 68px;
+	margin-left: 60px;
 	font: italic 14px/19px Georgia,Times New Roman,serif;
 	font-family: Georgia, 'Times New Roman', serif;
 	color: #777;
