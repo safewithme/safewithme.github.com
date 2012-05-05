@@ -89,6 +89,8 @@ a.openpgpjs:hover {
 
 #social ul li {
 	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /* about page specific */
