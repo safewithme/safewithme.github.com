@@ -23,10 +23,10 @@ body {
 	padding-bottom: 40px;
 }
 
-#logo {
-	background-image:url('../img/safe-icon-small.png');
-	width: 128px;
-	height: 128px;
+#safe-logo {
+	background-image:url('../img/safe-icon-256.png');
+	width: 256px;
+	height: 256px;
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: no-repeat;
